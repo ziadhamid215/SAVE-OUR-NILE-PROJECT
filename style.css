@@ -1,0 +1,138 @@
+body{
+    background-color:#F8FBFA ;
+    color:#183642 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.header{
+    background-color:#006994 ;
+    padding: 15px;
+    border-color:#52B788 ;
+}
+
+.nav-container {
+    display: flex;         
+    justify-content: center; 
+    align-items: center;     
+    gap: 12px;             
+}
+
+.nav-container button{
+    background-color: #0096C7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 18px ;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+
+.nav-container button:hover{
+    background-color: #52B788; 
+}
+
+h1{
+    Color: #006994;
+    font-size: 40px;
+    text-align: center;
+    Margin-top: 30px;
+}
+
+h2{
+    Color: #2E7D32;
+    font-size: 27px;
+
+}
+
+p{
+    Color: #183642;
+    Font-size: 17px;
+    Line-height: 1.7;
+    Width: 70%;
+    max-width: 750px;
+}
+
+img{
+    width: 75%;
+    max-width: 850px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    border-color: #CAF0F8 ;
+}
+
+ol li{
+    color: #2E7D32;
+    font-weight: bold;
+    font-size: 17px; 
+    margin-bottom: 18px;
+}
+
+ol li p{
+    color: #183642;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.8;
+    margin-top: 4px;
+}
+
+.awareness-box{
+    background-color: #CAF0F8;       
+    border: 6px solid #0096C7;  
+    border-radius: 10px;            
+    padding: 25px;                   
+    margin: 25px 0;                 
+}
+
+
+.awareness-box h2 {
+    color: #006994;                 
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.awareness-box p {
+    color: #183642;                  
+    line-height: 1.8;               
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.awareness-box button {
+    background-color: #0096C7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.awareness-box button:hover {
+    background-color: #52B788;     
+}
+
+
+button{
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 13px 28px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #52B788;
+}
+
+#result {
+    background-color: #E8F5E9;
+    color: #2E7D32;
+    border: 1px solid #52B788; /* يمكنك تغيير السمك حسب الرغبة */
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px; /* مسافة بينه وبين الزر */
+}
+

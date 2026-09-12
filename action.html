@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+    <nav class="nav-container">
+        <button type="button" onclick="window.location.href='index.html'">index</button>
+        <button type="button" onclick="window.location.href='problem.html'">problem</button>
+        <button type="button" onclick="window.location.href='action.html'">action</button>
+    </nav>
+    </header>
+
+
+    <h1>TAKE ACTION</h1>
+
+    <p>Protecting the Nile starts with simple actions. Choose the actions you are willing to take.</p>
+
+    
+    
+    <input type="checkbox" id="action1"> <label for="action1"> I will not throw waste into the river. </label>
+    <br>
+    <input type="checkbox" id="action2"> <label for="action2"> I will reduce my use of plastic.</label>
+    <br>
+    <input type="checkbox" id="action3"><label for="action3">I will keep public places clean.</label>
+    <br>
+    <input type="checkbox" id="action4"><label for="action4">I will encourage others to protect the Nile.</label>
+    <br> <br>
+    <button type="button" onclick="showImpact()">See your Impact</button>
+
+    <p id="result"> </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
